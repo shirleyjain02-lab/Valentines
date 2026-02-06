@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message for Parth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;600;700&family=Lora:ital,wght@0,400;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Page 1: Envelope -->
+    <section id="envelope-page" class="page active">
+        <div class="envelope-container">
+            <div class="envelope" id="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body">
+                    <div class="envelope-text">
+                        <p class="greeting">Hi Parth,</p>
+                        <p class="message">Asmita has sent you something</p>
+                    </div>
+                </div>
+                <div class="click-hint">Click to open</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 2: Letter -->
+    <section id="letter-page" class="page">
+        <div class="letter-container">
+            <div class="letter">
+                <div class="letter-header"></div>
+                <div class="letter-content">
+                    <p class="letter-text">
+                        Hi,
+                    </p>
+                    <p class="letter-text">
+                        It's been a crazy year with you. You made me feel so many emotions past year and I really loved
+                        you more, and us, even more.
+                    </p>
+                    <p class="letter-question">
+                        Mr. Parth aka Prem aka my Coffee,<br>
+                        Will you be my Valentine?
+                    </p>
+                </div>
+                <div class="buttons-container" id="buttons-container">
+                    <button id="yes-btn" class="answer-btn yes-btn">Yes</button>
+                    <button id="no-btn" class="answer-btn no-btn">No</button>
+                </div>
+                <div id="warning-message" class="warning-message hidden">
+                    <p>What do you mean NO?</p>
+                    <p>Do you want to get beaten?</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 3: Success -->
+    <section id="success-page" class="page">
+        <div class="success-container">
+            <div class="success-content">
+                <h1 class="success-title">I knew it!</h1>
+                <p class="success-message">I Love You my Valentine!</p>
+                <div class="hearts-decoration">
+                    <span class="heart heart-1"></span>
+                    <span class="heart heart-2"></span>
+                    <span class="heart heart-3"></span>
+                    <span class="heart heart-4"></span>
+                    <span class="heart heart-5"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
